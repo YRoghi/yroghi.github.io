@@ -1,6 +1,6 @@
 ---
 layout: page
 title: About me
-subtitle: CS student, InfoSec amateur, Coffee lover.
+subtitle: Adventurer, IT Professional, InfoSec amateur, Coffee lover.
 ---
 

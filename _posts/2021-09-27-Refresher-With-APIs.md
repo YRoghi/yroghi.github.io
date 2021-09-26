@@ -15,7 +15,7 @@ In the meantime, I started working on a small project called PyNance. This proje
 budget tracking app with an emphasis on complete automation. The goal is for the program to 
 grab payslips on a fortnightly basis from a specified Gmail address and process the data. Once 
 the required data has been extracted, it is all pushed to a companion Google Spreadsheet that 
-contains outlines my current budget recommendations based on specified values. 
+outlines my current budget recommendations based on specified values. 
 
 The project started off pretty easy, with the creation of the PDF parser. This was for the most 
 part pretty seamless, and just a case of scraping the PDF and indexing data based on known 

@@ -3,6 +3,8 @@ layout: post
 title: Sunset Drive
 subtitle: Going up the hills to see some Windmills
 ---
+![Sunset](/img/2021-09-30-img1.png1)
+![Windmill](/img/2021-09-30-img2.png)
 
 I was painting a picture
 The picture was a painting of you and
@@ -18,4 +20,4 @@ Would I run off the world someday?
 
 - AURORA
 
-![Sunset](/img/windmill1.png)
+

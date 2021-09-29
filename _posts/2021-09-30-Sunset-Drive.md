@@ -3,7 +3,8 @@ layout: post
 title: Sunset Drive
 subtitle: Going up the hills to see some Windmills
 ---
-![Sunset](/img/2021-09-30-img1.png1)
+![Sunset](/img/2021-09-30-img1.png)
+
 ![Windmill](/img/2021-09-30-img2.png)
 
 I was painting a picture

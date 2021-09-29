@@ -18,6 +18,6 @@ Farthest place on my shelf
 And I was runnin' far away
 Would I run off the world someday?
 
-- AURORA
+~ AURORA ~
 
 

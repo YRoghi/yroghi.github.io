@@ -22,14 +22,14 @@ have to read more about.
 
 Next up was trying to learn how to build a Dockerfile and a docker-compose.yml file. I understood 
 the basic logic surrounding containers in Docker, but the syntax and exact process that Docker 
-to build and run a container was somewhat foreign to me. After doing a bit of reading, I decided 
+followed to build and run a container was somewhat foreign to me. After doing a bit of reading, I decided 
 to create a basic container from the Python:3.9 image and copied all the program contents into 
 the container cache. After installing all dependencies, the container would run main.py, and then 
-exit. I have to admit, I was somewhat surprised it worked first try. But I was also puzzled at some behaviour the container was exhibiting (I certainly wasn't expecting it to abruptly exit 
+exit. I have to admit, I was somewhat surprised it worked first try, but I was also puzzled at some behaviour the container was exhibiting (I certainly wasn't expecting it to abruptly exit 
 after execution).
 
 A few questions were raised at this point, what is the container doing upon exit? Is it tearing 
 itself down? How do I make a Cron job (or something of similar function) out of this? And most 
 importantly: Why is my container size 1.03Gb when I only have a few text files and barely any Python
 packages. Last I checked, Python is pretty lightweight. Is this a by-product of Docker creating a lot of 
-overhead for a performance gain? This is something I'm going to have to investigate further.
+overhead for a performance gain at runtime? This is something I'm going to have to investigate further.

@@ -4,7 +4,7 @@ title: Starting a new project
 subtitle: Consistency is key
 ---
 
-With work winding down towards the holidays, its that time of year to pick up a new passion project so as to not get bored during my well earned month long vacation. A few ideas have been suggested, but I have decided to start with an old project that never really got off the ground. The project (as of yet) doesn't really have a name or a clear direction, but it does have a clear purpose. An emotional and creative outlet for me to express my thoughts and feelings in a way pen to paper seems to lack. So far, a script/concept has been written, but I have yet to start writing the actual content. Primitive character art was designed and animated. Meet: Anna.
+With work winding down towards the holidays, its that time of year to pick up a new passion project so as to not get bored during my well earnt month long vacation. A few ideas have been tossed around, but I have decided to start with an old project that never really got off the ground. The project (as of yet) doesn't really have a name or a clear direction, but it does have a clear purpose. An emotional and creative outlet for me to express my thoughts and feelings in a way pen to paper seems to lack. So far, a script/concept has been written, but I have yet to start writing the actual content. Primitive character art was designed and animated. Meet: Anna.
 
 ![Anna-Concept](/img/2021-11-29-Anna_Pack_Prototype.png)
 ![Anna-Idle](/img/2021-11-29-Anna_idle.gif)

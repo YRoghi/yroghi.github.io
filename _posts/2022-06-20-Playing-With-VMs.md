@@ -4,15 +4,17 @@ title: Playing with VMs
 subtitle: Hello again!
 ---
 
-A few days ago I decided to get back into working on things that would be useful in a real life context. Where is better to start than to create a proper workspace/lab environment to experienment and play around with. The initial stage of this project is going to be broken down into three parts:
+A few days ago I decided to get back into working on things that would be useful in a real life context. Where is better to start than to create a proper workspace/lab environment to experienment and play around with. 
+
+It is important to note that in any normal circumstance, publishing IP schemes for a home lab would be a *horrific* idea (from a security standpoint). With the above stated, only IPs that are in the Private IP space will be listed in this repo. Any publicly reachable IPs will be redacted.
+
+The initial stage of this project is going to be broken down into three parts:
 
 ***
 
 ### Networking Device
 
-An virtual switch for the Windows environment (RoghiDev_WinSW) will be created with a /28 subnet to allow for 14 end devices on this network. This can be changed later.
-
-An virtual switch for the Linux environment (RoghiDev_LSW) will be created with a /28 subnet to allow for 14 end devices on this network. This can also be changed later.
+A virtual switch with a /24 subnet will be created for my home network. Due to some end devices in this lab environment using DHCP and others using a Static IP, any change in the network will result in some VMs losing connectivity to the rest of the network. This is a problem to investigate later.
 
 ### Setting up a Windows Environment
 

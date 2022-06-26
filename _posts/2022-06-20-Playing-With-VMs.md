@@ -27,4 +27,4 @@ The initial Linux environment will contain a single Ubuntu server to get used to
 
 ***
 
-Once the all of the VMs are set up, some funky labs can be started and findings will be documented here, so stay tuned!
+Once all of the VMs are set up, some funky labs can be started and findings will be documented here, so stay tuned!

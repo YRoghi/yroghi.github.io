@@ -13,11 +13,11 @@ To access server config from the shell, type `SConfig` at anytime from PowerShel
 ### Installing Active Directory
 
 To search through windows feature, the `Get-Windowsfeature` command is used. It can be piped to filter outputs, for example:  
-```PowerShell
+```powershell
 Get-Windowsfeature | ? {$_.Name - Like "AD*"}
 ```
 To find all mentions of an Active Directory module/feature. AD is installed via the command:
-```PowerShell
+```powershell
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Import-Module ADDSDeployment
 Install-ADDSForest
@@ -43,13 +43,13 @@ To set an IP as part of the trusted hosts use `set-item wsman:\locahost\Client\T
 The MgmtClient IP was set to a static IP of `192.168.1.99`
 
 The PSSession can be assigned to a variable to make calling the same PS Session easier:
-```PowerShell
+```powershell
 $dc = New-PSSession 192.167.1.100 -Credential (Get-Credential)
 ```
 Once the credentials have been specified on first login, the variable can be called with `Enter-PSSession` and piped with other commands to have easy access to the DC from the MgmtClient. Its worth noting that any CLI GUI tools used by WinServer 2022 will break in PSSession. This means that  whenever these tools need to be used, the server will need to be managed locally rather than remotely.
 
 An example use of PSSesessions can be found below. The variable `$dc` is a current PSSession to the DC from MgmtPC. 
-```PowerShell
+```powershell
 # Copies a config file from the MgmtClient to C:\Windows\Tasks on the DC
 Copy-Item .\config -ToSession $dc C:\Windows\Tasks
 ```
@@ -61,8 +61,8 @@ Copy-Item .\config -ToSession $dc C:\Windows\Tasks
 ### Client 1
 
 Client1 IP was kept as DHCP so as to simulate a live client on the network and ensure the DNS on the DC is working correctly. The client was domain joined via PowerShell using the following command:
-```PowerShell
+```powershell
 Add-Computer -DomainName roghidev.org -Credential roghidev\Administrator -Force -Restart
 ```
 
-**TODO** *Check if the credential needs to be changed or if the default domain administrator remains valid after the initial join.
+**TODO** *Check if the credential needs to be changed or if the default domain administrator remains valid after the initial join.*

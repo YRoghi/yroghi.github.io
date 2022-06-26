@@ -7,10 +7,7 @@ subtitle: Going up the hills to see some Windmills
 
 ![Windmill](/img/2021-09-30-img2.png)
 
-I was painting a picture. The picture was a painting of you and for a moment I thought you were here. 
-But then again, it wasn't true, down and all this time I have been lyin'. Oh, lyin' in secret to myself.
-I've been putting sorrow on the farthest place on my shelf. And I was runnin' far away. Would I run off the world someday?
+Cute photos of a little drive up the hills near where I live.
 
-~ AURORA ~
-
+~ S u n s e t A e s t h e t i c s ~
 

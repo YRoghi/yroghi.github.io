@@ -25,8 +25,8 @@ The initial Windows environment will contain 3 machines:
 
 ### Setting up a Linux Environment
 
-The initial Linux environment will contain a single Ubuntu server to get used to playing with Linux servers and using SSH via an outside client to manage it. This allows for the Ubuntu server to be used as a sandbox environment for any Linux related tasks.
+The initial Linux environment will contain a single Ubuntu server to get used to playing with Linux servers and using SSH via an outside client to manage it. I can see this growing to a suite of various Linux Servers hosting various services. In future I'll be looking at running these services in docker on a single server to save on ressources but that's a future project down the line. 
 
 ***
 
-Once all of the VMs are set up, some funky labs can be started and findings will be documented here, so stay tuned!
+As a sidenote, I really need to make a tracker somewhere of ideas/projects I want come up with over time. Once all of the VMs are set up, some funky labs can be started and findings will be documented here, so stay tuned!

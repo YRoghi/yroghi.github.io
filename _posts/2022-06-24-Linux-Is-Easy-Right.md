@@ -32,8 +32,8 @@ To install uBridge git clone the [uBridge](https://github.com/GNS3/ubridge/) git
 # Installing Dependencies
 sudo apt-get install libpcap-dev
 
-gmake -f Makefile
-sudo gmake install
+make -f Makefile
+sudo make install
 ```
 
 To install dynamips git clone the [dynamips](https://github.com/GNS3/dynamips/) git repo. From the dynamips directory run the following commands:
@@ -45,8 +45,8 @@ sudo apt-get install libelf-dev
 mkdir build
 cd build
 cmake ..
-gmake -f Makefile
-sudo gmake install
+make -f Makefile
+sudo make install
 ```
 
 To install Virtual PC Simulator (VPCS) git clone the [VPCS](https://github.com/GNS3/vpcs/) git repo. From the VPCS directory run the following commands:
@@ -57,7 +57,7 @@ sudo apt-get install qemu-kvm libvirt-dev mtools
 
 cd src
 ./mk.sh
-sudo ln -s /home/gns3admin/vpcs/src/vpcs
+sudo ln -s /home/gns3admin/vpcs/src/vpcs /usr/bin/vpcs
 ```
 
 ### GNS3Server
